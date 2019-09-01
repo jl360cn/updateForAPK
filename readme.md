@@ -21,7 +21,7 @@
 ### intent.putExtra("update","http://xxx.com/update.json");
 ### json应包含版本号、描述、下载地址、MD5校验码。具体看 pojo/VersionInfo
 ### {
-### version: 1.1,
+### version: 19,
 ### md5: "sdfsdfsdfsdfsdfsdfsfdsswerssdfserwcgkpgk",
 ### url: "http://xxx.com/download/tobacoo.apk",
 ### desc: "1、应用内更新app。 2、修复发现的缺陷。 3、显示二维码更新地址。"
