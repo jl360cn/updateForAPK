@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:text="@string/lib_updater_title"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"
+        />
+    <TextView
+        android:id="@+id/lib_update_oldvercode"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="当前版本："/>
+    <TextView
+        android:id="@+id/lib_update_vercode"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="新的版本："/>
+
+    <TextView
+        android:id="@+id/lib_update_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:gravity="center"
+        android:hint="新版本描述" />
+    <TextView
+        android:id="@+id/lib_update_status"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="info"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        />
+    <Button
+        android:id="@+id/btn_lib_update"
+        android:text="检查新版本"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"/>
+
+</LinearLayout>
