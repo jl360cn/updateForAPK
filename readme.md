@@ -1,5 +1,5 @@
 This is a library of android. you can import it to to your project as library. 
-But is is a chinese language currently, and i don't want to translate it to english.
+But it is a chinese language currently, and i don't want to translate it to english interface.
 
 Open your android studio, and file -> new -> import module,and to select this library path to import.
 The library dependies the flow :
